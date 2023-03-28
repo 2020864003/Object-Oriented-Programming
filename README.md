@@ -1,7 +1,10 @@
 # 2023OOP
 OOP객체지향
-class Program
+namespace OOPPROEJCT
+{
+    internal class Program
     {
+       
         static void Main(string[] args)
         {
             Stack a = new Stack();
