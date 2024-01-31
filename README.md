@@ -8,6 +8,8 @@
 - 물품관리
 1. 관리자용
 2. 버튼들
+
+
 ## 2. 로그인화면 
 ![KakaoTalk_Photo_2023-06-11-01-21-44 003](https://github.com/2020864003/2023OOP/assets/128778304/77994954-359e-4a41-9141-f311867ada29)
 - 일반인용 로그인과 관리자용 로그인 버튼
@@ -15,7 +17,8 @@
 - 유저정보, 관리자 정보가 저장됨
 
 ### 2.1 로그인화면 코드
-GoodList questionList; //다음폼에서 띄울 설문 리스트 저장
+``` c
+ GoodList questionList; //다음폼에서 띄울 설문 리스트 저장
 
     enum ELoginType //로그인할때 사용자 타입 선언
     {
@@ -32,6 +35,7 @@ GoodList questionList; //다음폼에서 띄울 설문 리스트 저장
    }
 ![image](https://github.com/2020864003/2023OOP/assets/128778304/2f014ca8-87b0-46c3-bbb7-0180ffee4f63)
 ※ static class를 form클래스보다 앞에 선언하면 에러 
+```
 
 ## 3.회원가입
 ![image](https://github.com/2020864003/2023OOP/assets/128778304/666c47e5-0d50-4564-8c7c-76f8d057174d)
