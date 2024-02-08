@@ -17,7 +17,7 @@
  - 유저정보, 관리자 정보가 저장됨
 
 ### 2.1 로그인화면 코드
-``` c
+``` C#
  GoodList questionList; //다음폼에서 띄울 설문 리스트 저장
 
     enum ELoginType //로그인할때 사용자 타입 선언
